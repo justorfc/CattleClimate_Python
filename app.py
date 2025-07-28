@@ -1,16 +1,18 @@
 import streamlit as st
 import pandas as pd
 import os
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 
 # --- Configuración inicial ---
 st.set_page_config(page_title="Lectura archivos .data", layout="wide")
 st.title("Visor de Archivos .data con Información de Etiqueta y Estación")
 
 # --- Rutas base ---
-base_path = os.path.join(os.path.expanduser("~"), "Desktop", "CattleClimate_Python")
+base_path = r"C:\Proyectos\CattleClimate_Python"
 data_path = os.path.join(base_path, "datos", "hidrometeorologicos")
-glosario_path = os.path.join(base_path, "datos", "radiacion", "Glosario Variables.xlsx")
-cne_path = os.path.join(base_path, "datos", "radiacion", "CNE_IDEAM.xlsx")
+glosario_path = os.path.join(base_path, "datos", "Glosario Variables.xlsx")
+cne_path = os.path.join(base_path, "datos", "CNE_IDEAM.xlsx")
 
 # --- Cargar archivos auxiliares ---
 glosario = pd.read_excel(glosario_path, sheet_name="Básicas")
