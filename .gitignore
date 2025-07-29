@@ -1,0 +1,53 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Configuración de VSCode
+.vscode/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de log y base de datos
+*.log
+*.sqlite3
+*.db
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+
+# Archivos de configuración personal
+.env
+*.env
+.env.*
+
+# Archivos de caché y temporales
+.cache/
+*.bak
+*.tmp
+*.swp
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos para distribución o empaquetado
+dist/
+build/
+*.egg-info/
+
+# Archivos de exportación
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+
+# Salidas de ejecución
+*.out
+*.pdf
+*.txt
