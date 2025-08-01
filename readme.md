@@ -10,8 +10,9 @@ Creado por el Grupo Bioindustrias y el Semillero AgriSOS — Universidad de Sucr
 
 Puedes probar la aplicación directamente en Streamlit Cloud:
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cattleclimate.streamlit.app)  
-> *(Este enlace lo puedes reemplazar después de desplegar tu app)*
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cattleclimate.streamlit.app)
+
+> *(Reemplaza este enlace con la URL de tu app una vez desplegada)*
 
 ---
 
@@ -31,3 +32,37 @@ Instala las dependencias con:
 
 ```bash
 pip install -r requirements.txt
+```
+
+---
+
+## ⚙️ Estructura
+
+```bash
+CattleClimate_Python/
+│
+├── CattleClimate/
+│   ├── streamlit_app.py
+│   ├── pages/
+│   ├── datos/
+│   ├── resultados/
+│   └── .streamlit/
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 🧑‍💻 Guía local con VSCode
+
+Consulta la guía detallada aquí: [`README_VSCODE.md`](README_VSCODE.md)
+
+---
+
+## 🤝 Créditos
+
+- Dr. Quelbis Quintero, Ing. Agrícola
+- MSc. Justo Fuentes
+- Semillero AgriSOS – Universidad de Sucre
