@@ -6,3 +6,4 @@ openpyxl>=3.0.10
 psutil>=2.0.0
 fpdf>=1.7.2
 xlsxwriter>=3.0.2
+dask
